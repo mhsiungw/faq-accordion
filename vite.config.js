@@ -5,7 +5,8 @@ import autoprefixer from 'autoprefixer';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
+	base: '/faq-accordion/',
+	plugins: [
 		react(),
 		tailwindcss,
 		autoprefixer,
